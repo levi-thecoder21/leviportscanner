@@ -3,7 +3,7 @@ import pyfiglet
 b=pyfiglet.figlet_format("LEVI-THE_CODER")
 print(b)
 def scan_ports(target, start_port, end_port):
-    open_ports = []  # Store open ports
+    open_ports = [] 
     print(f"Scanning target: {target}")
     print("Scanning in progress...")
     for port in range(start_port, end_port + 1):
